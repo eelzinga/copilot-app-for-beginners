@@ -483,7 +483,6 @@ function ensurePrComment(prNumber, marker, body) {
     "pr",
     "view",
     prNumber,
-    "--comments",
     "--json",
     "comments",
   ]);
